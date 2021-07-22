@@ -1,0 +1,86 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"4 mcc_generated_files/device_config.c
+[p x PLLSEL = PLL4X ]
+"5
+[p x CFGPLLEN = OFF ]
+"6
+[p x CPUDIV = NOCLKDIV ]
+"7
+[p x LS48MHZ = SYS24X4 ]
+"10
+[p x FOSC = INTOSCIO ]
+"11
+[p x PCLKEN = ON ]
+"12
+[p x FCMEN = OFF ]
+"13
+[p x IESO = OFF ]
+"16
+[p x nPWRTEN = OFF ]
+"17
+[p x BOREN = SBORDIS ]
+"18
+[p x BORV = 190 ]
+"19
+[p x nLPBOR = OFF ]
+"22
+[p x WDTEN = OFF ]
+"23
+[p x WDTPS = 32768 ]
+"26
+[p x CCP2MX = RC1 ]
+"27
+[p x PBADEN = ON ]
+"28
+[p x T3CMX = RC0 ]
+"29
+[p x SDOMX = RB3 ]
+"30
+[p x MCLRE = ON ]
+"33
+[p x STVREN = ON ]
+"34
+[p x LVP = ON ]
+"35
+[p x ICPRT = OFF ]
+"36
+[p x XINST = OFF ]
+"37
+[p x DEBUG = OFF ]
+"40
+[p x CP0 = OFF ]
+"41
+[p x CP1 = OFF ]
+"42
+[p x CP2 = OFF ]
+"43
+[p x CP3 = OFF ]
+"46
+[p x CPB = OFF ]
+"47
+[p x CPD = OFF ]
+"50
+[p x WRT0 = OFF ]
+"51
+[p x WRT1 = OFF ]
+"52
+[p x WRT2 = OFF ]
+"53
+[p x WRT3 = OFF ]
+"56
+[p x WRTC = OFF ]
+"57
+[p x WRTB = OFF ]
+"58
+[p x WRTD = OFF ]
+"61
+[p x EBTR0 = OFF ]
+"62
+[p x EBTR1 = OFF ]
+"63
+[p x EBTR2 = OFF ]
+"64
+[p x EBTR3 = OFF ]
+"67
+[; ;mcc_generated_files/device_config.c: 67: 
+[p x EBTRB = OFF ]

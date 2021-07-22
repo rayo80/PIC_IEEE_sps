@@ -1,0 +1,206 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"5 C:\Users\sergi\Documents\curso_micro_ieee\semana2\proyecto3\pantallalcd.X\LCD.c
+[v _busdata busdata `(v  1 e 1 0 ]
+"33
+[v _comando comando `(v  1 e 1 0 ]
+"42
+[v _begin begin `(v  1 e 1 0 ]
+"57
+[v _setCursor setCursor `(v  1 e 1 0 ]
+"86
+[v _caracter caracter `(v  1 e 1 0 ]
+"96
+[v _print print `(v  1 e 1 0 ]
+"103
+[v _create create `(v  1 e 1 0 ]
+"150
+[v _writecaracter writecaracter `(v  1 e 1 0 ]
+"21 C:\Users\sergi\Documents\curso_micro_ieee\semana2\proyecto3\pantallalcd.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"42
+[v _oscilador oscilador `(v  1 e 1 0 ]
+"361 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f45k50.h
+[v _ANSELD ANSELD `VEuc  1 e 1 @3934 ]
+"423
+[v _ANSELE ANSELE `VEuc  1 e 1 @3935 ]
+[s S83 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"3336
+[s S92 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S101 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S104 . 1 `S83 1 . 1 0 `S92 1 . 1 0 `S101 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES104  1 e 1 @3971 ]
+[s S130 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"3460
+[s S135 . 1 `uc 1 CK1SPP 1 0 :1:0 
+`uc 1 CK2SPP 1 0 :1:1 
+`uc 1 OESPP 1 0 :1:2 
+]
+[s S139 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S144 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[s S149 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+]
+[u S152 . 1 `S130 1 . 1 0 `S135 1 . 1 0 `S139 1 . 1 0 `S144 1 . 1 0 `S149 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES152  1 e 1 @3972 ]
+"5248
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"5470
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"12294
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"12356
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"21 C:\Users\sergi\Documents\curso_micro_ieee\semana2\proyecto3\pantallalcd.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"41
+} 0
+"150 C:\Users\sergi\Documents\curso_micro_ieee\semana2\proyecto3\pantallalcd.X\LCD.c
+[v _writecaracter writecaracter `(v  1 e 1 0 ]
+{
+[v writecaracter@a a `uc  1 a 1 wreg ]
+[v writecaracter@a a `uc  1 a 1 wreg ]
+[v writecaracter@a a `uc  1 a 1 2 ]
+"155
+} 0
+"57
+[v _setCursor setCursor `(v  1 e 1 0 ]
+{
+[v setCursor@x x `uc  1 a 1 wreg ]
+"59
+[v setCursor@n n `uc  1 a 1 7 ]
+"58
+[v setCursor@m m `uc  1 a 1 6 ]
+"57
+[v setCursor@x x `uc  1 a 1 wreg ]
+[v setCursor@y y `uc  1 p 1 2 ]
+"60
+[v setCursor@x x `uc  1 a 1 8 ]
+"84
+} 0
+"96
+[v _print print `(v  1 e 1 0 ]
+{
+"97
+[v print@k k `i  1 a 2 9 ]
+"96
+[v print@a a `*.32uc  1 p 2 5 ]
+"101
+} 0
+"86
+[v _caracter caracter `(v  1 e 1 0 ]
+{
+[v caracter@a a `uc  1 a 1 wreg ]
+"87
+[v caracter@n n `uc  1 a 1 3 ]
+[v caracter@m m `uc  1 a 1 2 ]
+"86
+[v caracter@a a `uc  1 a 1 wreg ]
+"88
+[v caracter@a a `uc  1 a 1 4 ]
+"94
+} 0
+"42 C:\Users\sergi\Documents\curso_micro_ieee\semana2\proyecto3\pantallalcd.X\main.c
+[v _oscilador oscilador `(v  1 e 1 0 ]
+{
+"45
+} 0
+"103 C:\Users\sergi\Documents\curso_micro_ieee\semana2\proyecto3\pantallalcd.X\LCD.c
+[v _create create `(v  1 e 1 0 ]
+{
+[v create@a a `uc  1 a 1 wreg ]
+"108
+[v create@n n `uc  1 a 1 13 ]
+[v create@m m `uc  1 a 1 12 ]
+"103
+[v create@a a `uc  1 a 1 wreg ]
+[v create@b b `uc  1 p 1 2 ]
+[v create@c c `uc  1 p 1 3 ]
+[v create@d d `uc  1 p 1 4 ]
+[v create@e e `uc  1 p 1 5 ]
+[v create@f f `uc  1 p 1 6 ]
+[v create@g g `uc  1 p 1 7 ]
+[v create@h h `uc  1 p 1 8 ]
+[v create@i i `uc  1 p 1 9 ]
+[v create@a a `uc  1 a 1 11 ]
+"147
+} 0
+"42
+[v _begin begin `(v  1 e 1 0 ]
+{
+"55
+} 0
+"33
+[v _comando comando `(v  1 e 1 0 ]
+{
+[v comando@a a `uc  1 a 1 wreg ]
+[v comando@a a `uc  1 a 1 wreg ]
+[v comando@a a `uc  1 a 1 1 ]
+"40
+} 0
+"5
+[v _busdata busdata `(v  1 e 1 0 ]
+{
+[v busdata@a a `uc  1 a 1 wreg ]
+[v busdata@a a `uc  1 a 1 wreg ]
+[v busdata@a a `uc  1 a 1 0 ]
+"32
+} 0
